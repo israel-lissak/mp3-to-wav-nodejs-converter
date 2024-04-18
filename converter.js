@@ -3,8 +3,8 @@
   const wae = require('web-audio-engine');
 
   // Define paths for MP3 and WAV files
-  const mp3FilePath = "C:/Users/islis/Desktop/mp3-to-wav/I Won't.mp3";
-  const wavFilePath = "C:/Users/islis/Desktop/mp3-to-wav/I_Won't.wav";
+  const mp3FilePath = "path/to/mp3/file.mp3";
+  const wavFilePath = "path/to/wav/file.wav";
 
   // Read the MP3 file
   const buffer = fs.readFileSync(mp3FilePath);
